@@ -1,3 +1,6 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -35,6 +38,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
@@ -43,139 +47,3 @@
 @import url(../blocks/footer/__link-container/footer__link-container.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-@media screen and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-    }
-
-    .header {
-        max-width: 928px;
-    }
-
-    .lead {
-        max-width: 928px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(4, auto);
-        max-width: 928px;
-        gap: 14px 14px;
-    }
-    .place {
-        grid-template-columns: 440px 456px;
-        gap: 48px 32px;
-    }
-    .cover {
-        min-height: 640px;
-        max-width: 1024px;
-    }
-    .footer {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-    }
-
-    .header {
-        max-width: 720px;
-    }
-
-    .lead {
-        max-width: 768px;
-    }
-
-    .photo-grid {
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(6, auto);
-        gap: 16px 16px;
-        max-width: 720px;
-    }
-    .place {
-        grid-template-columns: 340px 352px;
-        gap: 48px 28px;
-    }
-    .cover {
-        min-height: 480px;
-        max-width: 768px;
-    }
-    .footer {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .page {
-        max-width: 320px;
-    }
-
-    .header {
-        max-width: 288px;
-    }
-
-    .header__logo {
-        width: 142px;
-    }
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-    }
-
-    .header {
-        max-width: 228px;
-    }
-
-    .lead {
-        max-width: 320px;
-    }
-
-    .lead__title {
-        max-width: 288px;
-        font-size: 40px;
-        line-height: 44px;
-    }
-
-    .lead__subtitle {
-        max-width: 288px;
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-
-    .intro {
-        max-width: 288px;
-    }
-
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-    }
-
-    .photo-grid {
-        grid-template-columns: auto;
-        grid-template-rows: repeat(12, auto);
-        gap: 12px 0;
-        max-width: 288px;
-    }
-    .places {
-        max-width: 320px;
-    }
-
-    .place {
-        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-    }
-
-    .cover {
-        min-height: 200px;
-        max-width: 320px;
-    }
-    .footer {
-        display: block;
-        max-width: 186px;
-    }
-
-}
