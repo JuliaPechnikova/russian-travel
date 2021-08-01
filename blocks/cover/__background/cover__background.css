@@ -1,23 +1,4 @@
 .cover__background {
-  padding: 245px 312px;
   background: center center no-repeat url("../../../images/cover-trains.jpg");
   background-size: cover;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__background {
-    padding: 195px 232px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    padding: 115px 104px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__background {
-    padding: 33px 16px;
-  }
 }
