@@ -11,17 +11,19 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    padding-top: 80px;
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
+    padding-top: 73px;
     gap: 48px 28px;
   }
 }
 
-@media screen and (min-width: 670px) and (max-width: 768px) {
+@media screen and (max-width: 670px) {
   .place {
     gap: 30px 20px;
   }
