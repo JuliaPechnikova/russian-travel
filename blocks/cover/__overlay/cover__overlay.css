@@ -10,7 +10,7 @@
   background: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
   .cover__overlay {
     padding: 195px 232px;
   }
@@ -28,13 +28,13 @@
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 690px) {
   .cover__overlay {
-    padding: 60px 56px;
+    padding: 58px 48px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 432px) {
   .cover__overlay {
     padding: 33px 16px;
   }
